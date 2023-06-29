@@ -8,7 +8,7 @@ GLAD_DIR=glad
 SRC_DIR=src
 BUILD_DIR=build
 
-OBJS=$(SRC_DIR)/main.cpp $(SRC_DIR)/shader.cpp $(GLAD_DIR)/src/glad.c
+OBJS=$(SRC_DIR)/main.cpp $(GLAD_DIR)/src/glad.c $(SRC_DIR)/shader.cpp
 
 C_OUT = app.bin
 
